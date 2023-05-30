@@ -38,3 +38,6 @@
         font-style: oblique;
         font: weight 80px; 
       }
+      p {
+        text-align: justify;
+      }
