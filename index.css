@@ -47,5 +47,13 @@
      
 header {
     background-color: #FFD008;
+    display: block;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
 }
 
