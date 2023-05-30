@@ -32,12 +32,7 @@
         font: weight 100px; 
       }
 
-      h3 { 
-        text-align: center;
-        font-family: monospace;
-        font-style: oblique;
-        font: weight 80px; 
-      }
+     
       p {
         text-align: justify;
       }
@@ -46,9 +41,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-       
+       background-color: #FFD008;
+
       }
      
 header {
     background-color: #FFD008;
 }
+
