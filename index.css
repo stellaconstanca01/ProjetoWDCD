@@ -1,0 +1,17 @@
+#slide { 
+    width: 799px;
+    height: 533px;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/* 5 imagens */
+@keyframes slide {
+    0%  { background-image: url('marilia/marilia1.jpg' ); } 
+    20% { background-image: url('marilia/marilia2.webp'); } 
+    40% { background-image: url('marilia/Marilia.jfif'); } 
+    60% { background-image: url('marilia/marilia1.jpg'); } 
+    80% { background-image: url('marilia/marilia2.webp');} 
+    100% { background-image: url('marilia/marilia1.jpg'); } 
+    }    
