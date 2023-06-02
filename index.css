@@ -16,6 +16,20 @@
     100% { background-image: url('marilia/marilia1.jpg'); } 
     }   
 
+
+    header {
+        background-color: #f4db6b;
+        padding: 20px;
+        color: #fff;
+      }
+  
+      .nav-menu {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+  
     header{ background-color: rgb(50, 45, 45);
         color: azure;
         padding: 20px;
@@ -27,9 +41,9 @@
       }
       h2 { 
         text-align: center;
-        font-family: monospace;
-        font-style: oblique;
-        font: weight 100px; 
+        font-family: var(0%);
+        font-style: normal;
+        font: weight 20px; 
       }
 
      
@@ -37,16 +51,9 @@
         text-align: justify;
       }
 
-      ol {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-       background-color: #FFD008;
-
-      }
-     
+    
 header {
-    background-color: #FFD008;
+    background-color: #f4db6b;
     display: block;
 }
 
@@ -57,3 +64,146 @@ nav {
   
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-flex;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.button {
+    background-color: #f4db6b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    align-items: center;
+    margin-left: 110px; 
+ 
+  }
+  
+  p {
+align-self: auto;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+body {
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #f4db6b;
+    padding: 70px 0;
+    flex-direction:row;
+    justify-content: flex-start;
+    display: block;
+
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col {
+	font-size: 18px;
+	color: rgb(12 10 11);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col:before{
+	content: '';
+	position:absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #000000;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not:last-child{
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform:none;
+	color: forestgreen;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbb;
+	display: contents;
+	transition: all 0.3s ease;
+    flex-direction: column;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-col .social-links a {
+	display:flex;
+    flex-direction: column;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align:center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #24262b;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: #ffffff;
+flex-direction: column;
+}
+.imglogo { 
+    display: flex;
+    flex-direction:column-reverse;
+}
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+    
+}
+.footer-col{
+    width: 100%;
+    
+}
