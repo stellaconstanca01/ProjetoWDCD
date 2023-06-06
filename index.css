@@ -132,10 +132,8 @@ font-size: 15px;
 div {
     display: flex;
     align-items: center;
-    gap: 100px;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 2%;
     padding-top: 2%;
     justify-content: center;
     
@@ -143,7 +141,7 @@ div {
 
 .footer {
     background-color: #f4db6b;
-    padding: 20px;
+    padding: 0px;
     box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
 }
 
